@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibrary.Fakes.ShimDAL">
+            <summary>Shim type of ClassLibrary.DAL</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimDAL.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimDAL.#ctor(ClassLibrary.DAL)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimDAL.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimDAL.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.Close">
+            <summary>Sets the shim of DAL.Close()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.Constructor">
+            <summary>Sets the shim of DAL.DAL()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.CreateCommandStringSqlParameterArray">
+            <summary>Sets the shim of DAL.CreateCommand(String procName, SqlParameter[] params)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.Dispose">
+            <summary>Sets the shim of DAL.Dispose()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.MakeInParamsStringSqlDbTypeInt32Object">
+            <summary>Sets the shim of DAL.MakeInParams(String paramName, SqlDbType paramType, Int32 size, Object obj)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.MakeOutParamsStringSqlDbTypeInt32">
+            <summary>Sets the shim of DAL.MakeOutParams(String paramName, SqlDbType paramType, Int32 size)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.MakeParameterStringSqlDbTypeInt32ParameterDirectionObject">
+            <summary>Sets the shim of DAL.MakeParameter(String paramName, SqlDbType paramType, Int32 size, ParameterDirection paramDirection, Object obj)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.OpenDB">
+            <summary>Sets the shim of DAL.OpenDB()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.RunProcString">
+            <summary>Sets the shim of DAL.RunProc(String procName)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.RunProcStringDataSetRef">
+            <summary>Sets the shim of DAL.RunProc(String procName, DataSet&amp; dataSetObject)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.RunProcStringSqlDataReaderRef">
+            <summary>Sets the shim of DAL.RunProc(String procName, SqlDataReader&amp; dataReader)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.RunProcStringSqlParameterArray">
+            <summary>Sets the shim of DAL.RunProc(String procName, SqlParameter[] params)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.RunProcStringSqlParameterArrayDataSetRef">
+            <summary>Sets the shim of DAL.RunProc(String procName, SqlParameter[] params, DataSet&amp; dataSetObject)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.RunProcStringSqlParameterArraySqlDataReaderRef">
+            <summary>Sets the shim of DAL.RunProc(String procName, SqlParameter[] params, SqlDataReader&amp; dataReader)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.getPoolConSting">
+            <summary>Sets the shim of DAL.getPoolConSting()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.getnonPoolConString">
+            <summary>Sets the shim of DAL.getnonPoolConString()</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.ShimDAL.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.Close">
+            <summary>Sets the shim of DAL.Close()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.CreateCommandStringSqlParameterArray">
+            <summary>Sets the shim of DAL.CreateCommand(String procName, SqlParameter[] params)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.Dispose">
+            <summary>Sets the shim of DAL.Dispose()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.MakeInParamsStringSqlDbTypeInt32Object">
+            <summary>Sets the shim of DAL.MakeInParams(String paramName, SqlDbType paramType, Int32 size, Object obj)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.MakeOutParamsStringSqlDbTypeInt32">
+            <summary>Sets the shim of DAL.MakeOutParams(String paramName, SqlDbType paramType, Int32 size)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.MakeParameterStringSqlDbTypeInt32ParameterDirectionObject">
+            <summary>Sets the shim of DAL.MakeParameter(String paramName, SqlDbType paramType, Int32 size, ParameterDirection paramDirection, Object obj)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.OpenDB">
+            <summary>Sets the shim of DAL.OpenDB()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.RunProcString">
+            <summary>Sets the shim of DAL.RunProc(String procName)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.RunProcStringDataSetRef">
+            <summary>Sets the shim of DAL.RunProc(String procName, DataSet&amp; dataSetObject)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.RunProcStringSqlDataReaderRef">
+            <summary>Sets the shim of DAL.RunProc(String procName, SqlDataReader&amp; dataReader)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.RunProcStringSqlParameterArray">
+            <summary>Sets the shim of DAL.RunProc(String procName, SqlParameter[] params)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.RunProcStringSqlParameterArrayDataSetRef">
+            <summary>Sets the shim of DAL.RunProc(String procName, SqlParameter[] params, DataSet&amp; dataSetObject)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.RunProcStringSqlParameterArraySqlDataReaderRef">
+            <summary>Sets the shim of DAL.RunProc(String procName, SqlParameter[] params, SqlDataReader&amp; dataReader)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.getPoolConSting">
+            <summary>Sets the shim of DAL.getPoolConSting()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimDAL.AllInstances.getnonPoolConString">
+            <summary>Sets the shim of DAL.getnonPoolConString()</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.ShimFormRights">
+            <summary>Shim type of ClassLibrary.FormRights</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimFormRights.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimFormRights.#ctor(ClassLibrary.FormRights)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimFormRights.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimFormRights.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimFormRights.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimFormRights.ConstructorBooleanBooleanBooleanBoolean">
+            <summary>Sets the shim of FormRights.FormRights(Boolean read, Boolean add, Boolean edit, Boolean delete)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimFormRights.canAdd">
+            <summary>Sets the shim of FormRights.canAdd()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimFormRights.canDelete">
+            <summary>Sets the shim of FormRights.canDelete()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimFormRights.canEdit">
+            <summary>Sets the shim of FormRights.canEdit()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimFormRights.canRead">
+            <summary>Sets the shim of FormRights.canRead()</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.ShimFormRights.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimFormRights.AllInstances.canAdd">
+            <summary>Sets the shim of FormRights.canAdd()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimFormRights.AllInstances.canDelete">
+            <summary>Sets the shim of FormRights.canDelete()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimFormRights.AllInstances.canEdit">
+            <summary>Sets the shim of FormRights.canEdit()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimFormRights.AllInstances.canRead">
+            <summary>Sets the shim of FormRights.canRead()</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.ShimUserRights">
+            <summary>Shim type of ClassLibrary.UserRights</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimUserRights.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimUserRights.#ctor(ClassLibrary.UserRights)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimUserRights.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimUserRights.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimUserRights.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimUserRights.ConstructorInt32String">
+            <summary>Sets the shim of UserRights.UserRights(Int32 User_Id, String proc_Name)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimUserRights.count">
+            <summary>Sets the shim of UserRights.count()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimUserRights.getForm_RightsString">
+            <summary>Sets the shim of UserRights.getForm_Rights(String fname)</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.ShimUserRights.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimUserRights.AllInstances.count">
+            <summary>Sets the shim of UserRights.count()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimUserRights.AllInstances.getForm_RightsString">
+            <summary>Sets the shim of UserRights.getForm_Rights(String fname)</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.ShimUserRightsDB">
+            <summary>Shim type of ClassLibrary.UserRightsDB</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimUserRightsDB.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimUserRightsDB.#ctor(ClassLibrary.UserRightsDB)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimUserRightsDB.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.ShimUserRightsDB.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimUserRightsDB.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimUserRightsDB.Constructor">
+            <summary>Sets the shim of UserRightsDB.UserRightsDB()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimUserRightsDB.getUserRightsInt32String">
+            <summary>Sets the shim of UserRightsDB.getUserRights(Int32 userID, String proc_Name)</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.ShimUserRightsDB.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.ShimUserRightsDB.AllInstances.getUserRightsInt32String">
+            <summary>Sets the shim of UserRightsDB.getUserRights(Int32 userID, String proc_Name)</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.Shimcrypt">
+            <summary>Shim type of ClassLibrary.crypt</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.Shimcrypt.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.Shimcrypt.#ctor(ClassLibrary.crypt)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.Shimcrypt.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.Shimcrypt.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.Shimcrypt.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.Shimcrypt.Constructor">
+            <summary>Sets the shim of crypt.crypt()</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.Shimcrypt.DecryptToIntString">
+            <summary>Sets the shim of crypt.DecryptToInt(String str)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.Shimcrypt.DecryptToStringString">
+            <summary>Sets the shim of crypt.DecryptToString(String str)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.Shimcrypt.EncryptIntegerInt32">
+            <summary>Sets the shim of crypt.EncryptInteger(Int32 val)</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.Shimcrypt.EncryptStringString">
+            <summary>Sets the shim of crypt.EncryptString(String val)</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.Shimcrypt.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.StubDAL">
+            <summary>Stub type of ClassLibrary.DAL</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.StubDAL.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.StubDAL.InitializeStub">
+            <summary>Initializes a new instance of type StubDAL</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubDAL.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubDAL.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubDAL.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.StubFormRights">
+            <summary>Stub type of ClassLibrary.FormRights</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.StubFormRights.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.StubFormRights.InitializeStub">
+            <summary>Initializes a new instance of type StubFormRights</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubFormRights.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubFormRights.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubFormRights.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.StubUserRights">
+            <summary>Stub type of ClassLibrary.UserRights</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.StubUserRights.#ctor(System.Int32,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.StubUserRights.InitializeStub">
+            <summary>Initializes a new instance of type StubUserRights</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubUserRights.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubUserRights.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubUserRights.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.StubUserRightsDB">
+            <summary>Stub type of ClassLibrary.UserRightsDB</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.StubUserRightsDB.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.StubUserRightsDB.InitializeStub">
+            <summary>Initializes a new instance of type StubUserRightsDB</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubUserRightsDB.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubUserRightsDB.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.StubUserRightsDB.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClassLibrary.Fakes.Stubcrypt">
+            <summary>Stub type of ClassLibrary.crypt</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.Stubcrypt.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ClassLibrary.Fakes.Stubcrypt.InitializeStub">
+            <summary>Initializes a new instance of type Stubcrypt</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.Stubcrypt.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.Stubcrypt.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClassLibrary.Fakes.Stubcrypt.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

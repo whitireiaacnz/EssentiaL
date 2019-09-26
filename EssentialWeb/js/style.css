@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+.font {
+font-family:Book Antiqua, Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:24px;
+color:#000000;
+}
+
+.tablecolor {
+background-color:#c0e8f5;
+border:1px #b7b7b7 solid;
+}
+
+.tablecolor_white {
+background-color:#ffffff;
+border:1px #b7b7b7 solid;
+}
+
+.top_font {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#262525;
+padding-left:10px;
+}
+
+.font_small {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#262525;
+padding-left:10px;
+
+}
+
+body {
+
+    
+}
+.example {
+    position:relative;
+   
+   
+}
+
+/* main menu styles */
+
+.nav,.nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.nav {
+    position:relative;
+}
+
+.nav ul {
+    height:0;
+    left:0;
+    overflow:hidden;
+    position:absolute;
+    top:46px;
+}
+
+.nav li {
+    float:left;
+    position:relative;
+}
+
+.nav li a {
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
+    -webkit-transition:0.5s;
+
+   
+    color:#000;
+    display:block;
+    font-size:16px;
+    line-height:35px;
+  
+    text-decoration:none;
+    transition:0.5s;
+}
+
+.nav li:hover > a {
+    background:#c1e9f5;
+   
+    color:#fff;
+}
+
+.nav li:hover ul.subs {
+    height:auto;
+    width:180px;
+	color:#000;
+}
+
+.nav ul li {
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
+    -webkit-transition:0.5s;
+    opacity:0;
+    transition:0.5s;
+    width:100%;
+}
+
+.nav li ul li {
+    -moz-transition-delay:0s;
+    -o-transition-delay:0s;
+    -webkit-transition-delay:0s;
+    transition-delay:0s;
+}
+
+.nav li:hover ul li {
+    opacity:1;
+    -moz-transition-delay:0.5s;
+    -o-transition-delay:0.5s;
+    -webkit-transition-delay:0.5s;
+    transition-delay:0.5s;
+}
+
+.nav ul li a {
+    background:#c1e9f5;
+    
+    color:#000;
+	padding-left:15px;
+    line-height:1px;
+    -moz-transition:1.5s;
+    -o-transition:1.5s;
+    -webkit-transition:1.5s;
+    transition:1.5s;
+}
+
+.nav li:hover ul li a {
+    line-height:35px;
+}
+
+.nav ul li a:hover {
+    background:#c1e9f5;
+	color:#000000;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(-90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(-90deg,rgba(0,0,0,0),rgba(0,0,0,0));
+}

@@ -1,0 +1,50 @@
+D:\Projects\EssentialWeb\EssentialWeb\bin\EssentialWeb.dll.config
+D:\Projects\EssentialWeb\EssentialWeb\bin\EssentialWeb.dll
+D:\Projects\EssentialWeb\EssentialWeb\bin\EssentialWeb.pdb
+D:\Projects\EssentialWeb\EssentialWeb\obj\Debug\EssentialWeb.csprojResolveAssemblyReference.cache
+D:\Projects\EssentialWeb\EssentialWeb\obj\Debug\EssentialWeb.dll
+D:\Projects\EssentialWeb\EssentialWeb\obj\Debug\EssentialWeb.pdb
+E:\Projects\boostrap\Essential\EssentialWeb\obj\Debug\EssentialWeb.dll.licenses
+E:\Projects\boostrap\Essential\EssentialWeb\obj\Debug\EssentialWeb.dll
+E:\Projects\boostrap\Essential\EssentialWeb\obj\Debug\EssentialWeb.pdb
+E:\Projects\boostrap\Essential\EssentialWeb\bin\EssentialWeb.dll.config
+E:\Projects\boostrap\Essential\EssentialWeb\bin\EssentialWeb.dll
+E:\Projects\boostrap\Essential\EssentialWeb\bin\EssentialWeb.pdb
+E:\Projects\boostrap\Essential\EssentialWeb\bin\ClassLibrary.1.0.0.0.Fakes.fakesconfig
+E:\Projects\boostrap\Essential\EssentialWeb\bin\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Projects\boostrap\Essential\EssentialWeb\obj\Debug\EssentialWeb.csprojFakesResolveAssemblyReference.cache
+D:\Projects\Essential\EssentialWeb\bin\EssentialWeb.dll.config
+D:\Projects\Essential\EssentialWeb\bin\EssentialWeb.dll
+D:\Projects\Essential\EssentialWeb\bin\EssentialWeb.pdb
+D:\Projects\Essential\EssentialWeb\bin\ClassLibrary.1.0.0.0.Fakes.fakesconfig
+D:\Projects\Essential\EssentialWeb\bin\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Projects\Essential\EssentialWeb\obj\Debug\EssentialWeb.dll
+D:\Projects\Essential\EssentialWeb\obj\Debug\EssentialWeb.pdb
+D:\Projects\Essential\EssentialWeb\obj\Debug\EssentialWeb.dll.licenses
+D:\Projects\Essential\EssentialWeb\obj\Debug\EssentialWeb.csprojFakesResolveAssemblyReference.cache
+D:\Projects\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.dll.licenses
+D:\Projects\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.dll
+D:\Projects\Essential25092019\EssentialWeb\bin\EssentialWeb.dll.config
+D:\Projects\Essential25092019\EssentialWeb\bin\EssentialWeb.dll
+D:\Projects\Essential25092019\EssentialWeb\bin\EssentialWeb.pdb
+D:\Projects\Essential25092019\EssentialWeb\bin\ClassLibrary.1.0.0.0.Fakes.fakesconfig
+D:\Projects\Essential25092019\EssentialWeb\bin\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Projects\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.pdb
+E:\Projects\anand\Essential25092019\EssentialWeb\bin\EssentialWeb.dll.config
+E:\Projects\anand\Essential25092019\EssentialWeb\bin\EssentialWeb.dll
+E:\Projects\anand\Essential25092019\EssentialWeb\bin\EssentialWeb.pdb
+E:\Projects\anand\Essential25092019\EssentialWeb\bin\ClassLibrary.1.0.0.0.Fakes.fakesconfig
+E:\Projects\anand\Essential25092019\EssentialWeb\bin\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Projects\anand\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.dll.licenses
+E:\Projects\anand\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.dll
+E:\Projects\anand\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.pdb
+E:\Projects\anand\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.csprojFakesResolveAssemblyReference.cache
+E:\Projects\Latest Essential\Essential25092019\EssentialWeb\bin\EssentialWeb.dll.config
+E:\Projects\Latest Essential\Essential25092019\EssentialWeb\bin\EssentialWeb.dll
+E:\Projects\Latest Essential\Essential25092019\EssentialWeb\bin\EssentialWeb.pdb
+E:\Projects\Latest Essential\Essential25092019\EssentialWeb\bin\ClassLibrary.1.0.0.0.Fakes.fakesconfig
+E:\Projects\Latest Essential\Essential25092019\EssentialWeb\bin\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Projects\Latest Essential\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.csprojFakesResolveAssemblyReference.cache
+E:\Projects\Latest Essential\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.dll.licenses
+E:\Projects\Latest Essential\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.dll
+E:\Projects\Latest Essential\Essential25092019\EssentialWeb\obj\Debug\EssentialWeb.pdb

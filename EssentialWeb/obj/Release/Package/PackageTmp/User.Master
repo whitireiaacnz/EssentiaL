@@ -1,0 +1,228 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="EssentialWeb.User" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Essential</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.19.custom.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.19.custom.min.js"></script>
+    <script src="../js/jquery-1.7.1.min.js"></script>
+    <script src="../js/jquery-ui-1.7.3.custom.min.js"></script>
+    <link href="../ui-lightness/jquery-ui-1.8.22.custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet" />
+    <link href="../dist/css/timeline.css" rel="stylesheet" />
+
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript">
+       <%-- function Validate() {
+            if (document.getElementById("<%=ddlselect.ClientID%>").value == "0") {
+                alert("Select Licensee Name ");
+                document.getElementById("<%=ddlselect.ClientID%>").focus();
+                return false;
+            }
+            if (!isEmptyCheck(document.getElementById("<%=txtselect.ClientID%>"), "Enter  company name/ledparent/ledname"))
+                return false;
+           
+            if (document.getElementById("<%=ddlPageSize.ClientID%>").value == "0") {
+                alert("Select company Name ");
+                document.getElementById("<%=ddlPageSize.ClientID%>").focus();
+                return false;
+            }
+            return true;
+        }    --%>
+       </script>
+
+        <script language="Javascript">
+            window.setInterval("renewSession();", 600000);
+            function renewSession()
+            { document.images("renewSession").src = "/renewSes.aspx?par=" + Math.random(); }
+    </script>
+
+        <script type="text/javascript">
+            var IsPageLoad = '0';
+            function Prevent_Session_Timeout(IsPageLoad) {
+                var callerurl = "Prevent_Session.aspx";
+                if (window.XMLHttpRequest) {
+                    xhttp = new XMLHttpRequest()
+                }
+                else {
+                    xhttp = new ActiveXObject("Microsoft.XMLHTTP")
+                }
+                if (IsPageLoad == '1') {
+                    xhttp.open("POST", callerurl, true);
+                    xhttp.send("");
+                }
+                window.setTimeout("Prevent_Session_Timeout('1');", 300000);
+            }
+    </script>
+
+        <script type="text/javascript">
+            function Search_Gridview(strKey, strGV) {
+                var strData = strKey.value.toLowerCase().split(" ");
+                var tblData = document.getElementById(strGV);
+                var rowData;
+                for (var i = 1; i < tblData.rows.length; i++) {
+                    rowData = tblData.rows[i].innerHTML;
+                    var styleDisplay = 'none';
+                    for (var j = 0; j < strData.length; j++) {
+                        if (rowData.toLowerCase().indexOf(strData[j]) >= 0)
+                            styleDisplay = '';
+                        else {
+                            styleDisplay = 'none';
+                            break;
+                        }
+                    }
+                    tblData.rows[i].style.display = styleDisplay;
+                }
+            }
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="Scripts/jquery-1.4.1.min.js"></script>
+    <script src="Scripts/jquery.dynDateTime.min.js"></script>
+    <script src="Scripts/calendar-en.min.js"></script>
+    <link href="Styles/calendar-blue.css" rel="stylesheet" />
+
+    <style>
+        .footable > tbody > tr > td, .footable > thead > tr > th {
+            border-left: 10px solid #ccc;
+            border-top: 10px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .expand td {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .calendar {
+            z-index: 100000;
+        }
+
+        .gridrowcss {
+            background: #f8f0d0;
+            font-weight: bold;
+            color: black;
+        }
+
+        .gridcss {
+            background: #dce9f9;
+            font-weight: bold;
+            color: White;
+        }
+
+        .GridPager a, .GridPager span
+    {
+        display: block;
+        height: 18px;
+        width: 30px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+    }
+    .GridPager a
+    {
+        background-color: #f5f5f5;
+        color: #969696;
+        border: 1px solid #969696;
+    }
+    .GridPager span
+    {
+        background-color: #A1DCF2;
+        color: #000;
+        border: 1px solid #3AC0F2;
+    }
+
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+
+     <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="default.aspx">Essential</a>
+                </div>
+                <!-- /.navbar-header -->
+
+                <ul class="nav navbar-top-links navbar-right">
+                    <!-- /.dropdown -->
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transaction <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-user">
+                              <li id="Sales" runat="server"><a href="UserPriceList.aspx"><i class="fa fa-user fa-fw"></i>Price List</a>
+                          </li>
+                       <li class="divider"></li>
+                             
+                        </ul>   
+                    </li>
+               
+                <li class="">Welcome:
+                          <asp:Label ID="lblusername" runat="server" Text=""></asp:Label>
+                </li>
+
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a id="A1" class="dropdown-toggle" data-toggle="dropdown" href="#" runat="server">
+                        <i class="fa fa-user fa-fw"></i><i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li class="divider"></li>
+                        <li id="userlogoutbtn" runat="server"><a href="userlogout.aspx"><i class="fa fa-sign-out fa-fw"></i>Logout</a>
+                        </li>
+                        <li id="userlogintbtn" runat="server"><a href="login.aspx"><i class="fa fa-sign-out fa-fw"></i>Login</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+
+                <!-- /.dropdown -->
+                <!-- /.navbar-top-links -->
+            </nav>
+            <!-- /.row -->
+            <br />
+         
+                            
+            </div>
+       
+		<!-- end of wrapper -->
+
+        <br />
+        <br />
+
+
+
+    <div>  
+        <asp:ContentPlaceHolder ID="Content2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

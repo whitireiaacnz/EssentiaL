@@ -1,0 +1,2 @@
+E:\Projects\boostrap\Essential\EssentialWeb\Fakes\ClassLibrary.fakes : warning : Cannot generate stub for ClassLibrary.DBConnection: type is not visible to exported or assembly(ClassLibrary.1.0.0.0.Fakes).
+E:\Projects\boostrap\Essential\EssentialWeb\Fakes\ClassLibrary.fakes : warning : Cannot generate shim for ClassLibrary.DBConnection: type is not visible to exported or assembly(ClassLibrary.1.0.0.0.Fakes).

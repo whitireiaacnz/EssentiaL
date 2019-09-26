@@ -1,0 +1,5 @@
+D:\Projects\EssentialWeb\EssentialWeb\obj\Debug\EssentialWeb.dll
+D:\Projects\EssentialWeb\EssentialWeb\obj\Debug\EssentialWeb.pdb
+D:\Projects\Essential\EssentialWeb\obj\Debug\Essential.csprojResolveAssemblyReference.cache
+D:\Projects\Essential\EssentialWeb\obj\Debug\EssentialWeb.dll
+D:\Projects\Essential\EssentialWeb\obj\Debug\EssentialWeb.pdb
